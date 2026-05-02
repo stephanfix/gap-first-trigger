@@ -3,7 +3,7 @@ steps:
     entrypoint: 'sh'
     args:
       - '-c'
-      - 
+      - |
         echo "Cloud Build Triggered Successfully"
         echo "Repository: $REPO_NAME"
         echo "Branch: $BRANCH_NAME"
