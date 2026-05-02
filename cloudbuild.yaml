@@ -4,7 +4,7 @@ steps:
     args:
       - '-c'
       - |
-        echo "Cloud Build Triggered Successfully"
+        echo "✅ Cloud Build Triggered Successfully"
         echo "Repository: $REPO_NAME"
         echo "Branch: $BRANCH_NAME"
         echo "Commit: $COMMIT_SHA"
